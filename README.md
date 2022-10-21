@@ -22,9 +22,13 @@ A step by step series of examples that tell you how to get a development
 environment running
 
 Run the next lines in a powershell
+
 -pip install virtualenv
+
 -virtualenv todos_env
+
 -todos_env\Scripts\activate
+
 -pip install -r requirements.txt
  
 ## Running the tests
