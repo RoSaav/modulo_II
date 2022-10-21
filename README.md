@@ -32,20 +32,29 @@ Run the next lines in a powershell
 If you want to run test pre installation you can run all the test in project or unit/integration with the next lines
 
 -tox -v
+
 -pytest todos\tests\integration\test_integration.py -v
+
 -pytest todos\tests\unit\test_create.py -v 
+
 -pytest todos\tests\unit\test_add_task.py
 
 ### Sample Tests
 
-todos\tests\test_list.py .........            [ 47%]
-todos\tests\integration\test_integration.py ..[ 57%]
-todos\tests\unit\test_add_task.py ..          [ 68%]
-todos\tests\unit\test_create.py ......        [100%]
-========================================== 19 passed, 5 warnings in 0.98s =========================================== 
-______________________________________________________ summary ______________________________________________________
-  py39: commands succeeded
-  congratulations :)
+-todos\tests\test_list.py .........            [ 47%]
+
+-todos\tests\integration\test_integration.py ..[ 57%]
+
+-todos\tests\unit\test_add_task.py ..          [ 68%]
+
+-todos\tests\unit\test_create.py ......        [100%]
+
+-========================================== 19 passed, 5 warnings in 0.98s -=========================================== 
+-______________________________________________________ summary -______________________________________________________
+
+-  py39: commands succeeded
+
+-  congratulations :)
 
 ## Deployment
 
@@ -55,11 +64,17 @@ Install the package todos
 To use it follow the next lines ane find out an example
 
 >>> from todos.src import todos
+
 >>> todos.list_lists()
+
 my_first_todo_list.csv
+
 >>> todos.show_list('my_first_todo_list') 
+
 |    | created             | task    | summary      | status   | owner   |
+
 |---:|:--------------------|:--------|:-------------|:---------|:--------|
+
 |  0 | 2022-10-17 22-51-32 | pruebas | update value | todo     | yo      |
 
 If you want know which methods there are check the documentation of each in todos.py
@@ -67,8 +82,11 @@ If you want know which methods there are check the documentation of each in todo
 ## Authors
 
 Homework for MODULO_II
+
 TECNOLOGICO DE MONTERREY
+
 Miguel Rodrigo Saavedra Perez
+
 https://github.com/RoSaav/modulo_II
 
 
